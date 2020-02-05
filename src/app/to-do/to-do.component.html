@@ -1,0 +1,21 @@
+
+  <section class="todoapp">
+
+    <app-to-do-add>
+    </app-to-do-add>
+    <!-- This section should be hidden by default and shown when there are todos -->
+
+    <section class="main">
+
+      <input id="toggle-all" class="toggle-all" type="checkbox">
+      <label (click)= "seleccionarTodos()"  for="toggle-all">Marcar todos </label>
+
+      <app-to-do-list>
+      </app-to-do-list>
+
+    </section>
+
+    <app-to-do-footer>
+    </app-to-do-footer>
+
+  </section>
